@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html {
+    height: 100vh;
+  } 
+body {
+  height: 500vh;
+  background: rgb(0, 0, 0);
+}
+.intro {
+  position:relative;
+  height: 100vh;
+  font-size: 90px;
+  z-index: 4;
+}
+.intro h1 {
+  position: absolute;
+  top: 50%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  color: rgb(255, 255, 255);
+}
+canvas {
+  position: fixed;
+  left: 50%;
+  top: 50%; 
+  transform: translate(-50%, -50%);
+  max-width: 100vw;
+  max-height: 100vh;    
+  z-index: 1;
+}
+section {
+  height: 100vh;
+  color: rgb(255, 255, 255);
+}
+section h1 {
+  padding-top: 300px;
+  text-align: center;
+  font-size: 80px;
+}
+#header {
+  background-color: #000000; /* Grey background */
+  padding: 0; /* Some padding */
+  color: black;
+   /* Centered text */
+  /* font-size: 90px; /* Big font size */
+ /* font-weight: bold;
+  position: fixed; /* Fixed position - sit on top of the page */
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100vh;
+  transition: 0.2s; /* Add a transition effect (when scrolling - and font size is decreased) */
+}
+  img.title {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    z-index: 2;
+    margin-left: 0;
+  }
+ 
